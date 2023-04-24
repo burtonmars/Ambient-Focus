@@ -1,0 +1,10 @@
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    background-color: var(--color-footer);
+    font-size: small;
+    position: relative;
+}

@@ -1,0 +1,49 @@
+.hero__container {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0 8vw 0 8vw;
+
+    h1 {
+        font-size: 48px;
+        margin: -2rem 0 0rem 0;
+    }
+
+    h3 {
+        width: 80%;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .hero__brandImg {
+        margin-bottom: 3rem;
+    }
+
+    .hero__ctaContainer {
+        width: 80%;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+            border-radius: 50px;
+            width: 45%;
+            height: 100%;
+        }
+
+        .hero__learnMoreBtn {
+            border: solid;
+            border-color: var(--cta-highlight-color);
+        }
+
+        .hero__tryForFreeBtn {
+            border: none;
+            background-color: var(--cta-highlight-color);
+            font-weight: bold;
+            color: black;
+        }
+    }
+}
