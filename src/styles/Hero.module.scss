@@ -47,3 +47,33 @@
         }
     }
 }
+
+
+@media screen and (min-width: 850px) {
+    .hero__container {
+
+        h1 {
+            font-size: 52px;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+        }
+
+        .hero__ctaContainer {
+            width: 70%;
+            height: 3rem;
+
+            button {
+                border-radius: 50px;
+                width: 45%;
+                height: 100%;
+            }
+
+            .hero__learnMoreBtn, .hero__tryForFreeBtn {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+}

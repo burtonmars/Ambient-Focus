@@ -1,13 +1,14 @@
 import React from 'react';
 
-import '../styles/player/player.css';
+import style from '../../styles/Player.module.scss';
+import Sounds from './sounds';
 
-function player() {
+function Player() {
   return (
     <div>
-      
+      <Sounds />
     </div>
   )
 }
 
-export default player
+export default Player

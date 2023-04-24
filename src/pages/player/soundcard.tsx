@@ -1,13 +1,13 @@
 import React from 'react';
 
-import '../styles/soundcard/soundcard.css';
+import styles from '../../styles/Soundcard.module.scss';
 
-function soundcard() {
+function SoundCard() {
   return (
-    <div>
-      
+    <div className={styles.soundcard__container}>
+      <p>image here</p>
     </div>
   )
 }
 
-export default soundcard
+export default SoundCard;

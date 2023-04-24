@@ -6,7 +6,9 @@
 
 :root {
   --font-family: "Castoro", serif;
+
   --cta-highlight-color: #00FFE0;
+  --soundcard-background-color: #B7CAB0;
 }
 
 * {
