@@ -1,4 +1,10 @@
 .soundcard__container {
-    background-color: var(--soundcard-background-color);
-    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--soundcard-color-rgba);
+    border-radius: 10px;
 }

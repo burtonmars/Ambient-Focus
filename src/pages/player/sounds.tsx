@@ -5,7 +5,18 @@ import SoundCard from './soundcard';
 
 function sounds() {
   return (
-    <div>
+    <div className={style.sounds__container}>
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
+      <SoundCard />
       <SoundCard />
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import styles from '../../styles/Hero.module.scss';
-import ambientIcon from '../../assets/img/ambient-focus.png';
+import ambientLogo from '../../assets/img/ambient-focus.png';
 import { useRouter } from 'next/router';
 
 function Hero() {
@@ -19,12 +19,13 @@ function Hero() {
   return (
     <div className={styles.hero__container}>
       <h1>Ambient Focus</h1>
-      <h3>Transport your mind to your favorite places with a customizable ambient soundscape</h3>
-      <div className={styles.hero__brandImg}>
+      <h3>Transport your mind to a peaceful place with a customizable ambient soundscape</h3>
+      <div className={styles.hero__logo}>
         <Image 
-            src={ambientIcon} 
+            src={ambientLogo} 
             alt='ambient focus brand'
-            height={75}></Image>
+            height={75}>
+        </Image>
       </div>
       <div className={styles.hero__ctaContainer}>
         <button className={styles.hero__learnMoreBtn} onClick={() => scrollToElement("#learn-more-container")}>
