@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import styles from '@/styles/LearnMore.module.scss';
+import mobilePreview from '../../../public/assets/img/mobile phone preview.svg';
 
 function LearnMore() {
   return (
@@ -26,7 +27,13 @@ function LearnMore() {
         </div>
       </div>
       <div className={styles.learnMore__appImgContainer}>
-        
+        <a href="/player/player">
+          <Image 
+            src={mobilePreview} 
+            alt='mobile phone preview'
+            height={450}>
+          </Image>
+        </a>
       </div>
     </div>
   )
