@@ -2,12 +2,19 @@ import React from 'react';
 import useSound from 'use-sound';
 
 import styles from '../../styles/Soundcard.module.scss';
-import forestSound from '../../../public/assets/sounds/forest.ogg';
+import birds1 from '../../../public/assets/sounds/birds1.ogg'
 
-function SoundCard() {
+interface SoundCardProps {
+  sound: any;
+}
+
+function SoundCard(props: SoundCardProps) {
   const [soundActive, setSoundActive] = React.useState(false)
+
+  //const sound = require('../../../public/assets/sounds/birds1.ogg');
+
   let containerClassName = styles.soundcard__containerOff;
-  const [play, { stop }] = useSound(forestSound);
+  const [play, { stop }] = useSound(birds1);
 
   const handleClick = React.useCallback(() => {
     if (soundActive) {
