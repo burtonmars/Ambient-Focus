@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useSound from 'use-sound';
 import Image from 'next/image';
 
@@ -15,33 +15,42 @@ interface SoundCardProps {
 
 function SoundCard(props: SoundCardProps) {
   const [soundActive, setSoundActive] = React.useState(false)
+  const [volume, setVolume] = useState(.6);
+  const [play, { stop }] = useSound(birdsSound, {volume});
 
   //const sound = require('../../../public/assets/sounds/birds1.ogg');
 
   let containerClassName = styles.soundcard__containerOff;
-  const [play, { stop }] = useSound(birdsSound);
 
   const handleClick = React.useCallback(() => {
     if (soundActive) {
       stop();
       setSoundActive(false);
-      containerClassName = styles.soundcard_containerOff
+      containerClassName = styles.soundcard__containerOff
     } else {
       play();
       setSoundActive(true);
-      containerClassName = styles.soundcard_containerOn
+      containerClassName = styles.soundcard__containerOn
     }
   }, [play, stop, soundActive]);
 
+  const handleVolumeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setVolume(parseFloat(event.target.value));
+  }
+
   return (
     <div className={containerClassName}>
-      <button onClick={handleClick}>
-        <Image
-          src={birdsImg}
-          alt='sound icon'
-          height={50}>
-        </Image>
+      <button className={styles.soundcard__button} onClick={handleClick}>
+        <Image src={birdsImg} alt='sound icon' height={40}></Image>
       </button>
+      <input className={styles.soundcard__volumeBar} 
+          type="range" 
+          min="0" 
+          max="1" 
+          step="0.01" 
+          value={volume}
+          onChange={handleVolumeChange}>
+      </input>
     </div>
   )
 }

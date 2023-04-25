@@ -72,5 +72,13 @@
 @media screen and (min-width: 1050px) {
     .learnMore__container {
         width: 850px;
+        margin-top: 4rem;
+
+        .learnMore__textContainer {
+                    
+            .learnMore__section {
+                margin-bottom: 3rem;
+            }
+        }
     }
 }
