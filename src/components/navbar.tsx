@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import styles from '../styles/Navbar.module.scss';
-import ambientLogo from '../assets/img/ambient-focus.png';
+import ambientLogo from '../../public/assets/img/ambient-focus.png';
 
 function Navbar() {
   return (

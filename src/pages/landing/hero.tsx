@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import styles from '../../styles/Hero.module.scss';
-import ambientLogo from '../../assets/img/ambient-focus.png';
+import ambientLogo from '../../../public/assets/img/ambient-focus.png';
 import { useRouter } from 'next/router';
 
 function Hero() {

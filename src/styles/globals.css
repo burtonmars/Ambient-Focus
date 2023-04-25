@@ -10,7 +10,7 @@
   --cta-highlight-color: #00FFE0;
   --soundcard-color: #B7CAB0;
   --soundcard-color-rgba: rgba(183, 202, 176, .65);
-  --soundcard-color-rgba-selected: rgba(128, 201, 102, .65);
+  --soundcard-color-rgba-active: rgba(128, 201, 102, .65);
 }
 
 * {

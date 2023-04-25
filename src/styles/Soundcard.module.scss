@@ -1,4 +1,4 @@
-.soundcard__container {
+.soundcard__containerOff {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,5 +6,16 @@
     height: 5rem;
     width: 5rem;
     background-color: var(--soundcard-color-rgba);
+    border-radius: 10px;
+}
+
+.soundcard__containerOn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--soundcard-color-rgba-active);
     border-radius: 10px;
 }
