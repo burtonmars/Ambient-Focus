@@ -4,33 +4,26 @@ import Image from 'next/image';
 
 import styles from '../../styles/Soundcard.module.scss';
 
-// *** temp use for no prop access
-import birdsSound from '../../../public/assets/sounds/birds1.ogg';
-import birdsImg from '../../../public/assets/img/bird.webp';
-// ***
-
 interface SoundCardProps {
-  sound: any;
+  iconFile: any,
+  soundFile: any;
 }
 
 function SoundCard(props: SoundCardProps) {
   const [soundActive, setSoundActive] = React.useState(false)
   const [volume, setVolume] = useState(.6);
-  const [play, { stop }] = useSound(birdsSound, {volume});
+  const [play, { stop }] = useSound(props.soundFile, {volume, loop: true});
 
-  //const sound = require('../../../public/assets/sounds/birds1.ogg');
 
-  let containerClassName = styles.soundcard__containerOff;
+  let containerClassName = soundActive ? styles.soundcard__containerOn : styles.soundcard__containerOff;
 
   const handleClick = React.useCallback(() => {
     if (soundActive) {
       stop();
       setSoundActive(false);
-      containerClassName = styles.soundcard__containerOff
     } else {
       play();
       setSoundActive(true);
-      containerClassName = styles.soundcard__containerOn
     }
   }, [play, stop, soundActive]);
 
@@ -41,7 +34,12 @@ function SoundCard(props: SoundCardProps) {
   return (
     <div className={containerClassName}>
       <button className={styles.soundcard__button} onClick={handleClick}>
-        <Image src={birdsImg} alt='sound icon' height={40}></Image>
+        <Image 
+          src={props.iconFile} 
+          alt='sound icon' 
+          height={40}
+          width={40}>
+        </Image>
       </button>
       <input className={styles.soundcard__volumeBar} 
           type="range" 
