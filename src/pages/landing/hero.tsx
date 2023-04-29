@@ -1,19 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
+import { Link } from 'react-scroll';
+import { useRouter } from 'next/router';
 
 import styles from '../../styles/Hero.module.scss';
 import ambientLogo from '../../../public/assets/img/ambient-focus.png';
-import { useRouter } from 'next/router';
+
 
 function Hero() {
   const router = useRouter();
 
   function navigateRoute(route: string) {
     router.push(route);
-  }
-
-  function scrollToElement(elementName: string) {
-    window.location.hash = elementName;
   }
 
   return (
@@ -28,9 +26,13 @@ function Hero() {
         </Image>
       </div>
       <div className={styles.hero__ctaContainer}>
-        <button className={styles.hero__learnMoreBtn} onClick={() => scrollToElement("#learn-more-container")}>
-            Learn More
-        </button>
+        <div className={styles.hero__learnMoreBtnContainer}>
+          <Link to='learn-more' smooth={true} duration={500}>
+            <button className={styles.hero__learnMoreBtn}>
+              Learn More
+            </button>
+          </Link>
+        </div>
         <button className={styles.hero__tryForFreeBtn} onClick={() => navigateRoute("/player/player")}>
             Try it Free
         </button>

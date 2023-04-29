@@ -1,14 +1,14 @@
 .learnMore__container {
+    height: 100vh !important;
+    width: 100vw;
     display: flex;
-    align-items: center;
-    height: 70%;
-    width: 100%;
 
     .learnMore__textContainer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        padding: 10rem 0 10rem 0;
         width: 100%;
         height: 100%;
         color: #fff;
@@ -31,6 +31,39 @@
     .learnMore__appImgContainer {
         color: white;
         display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .learnMore__container {
+        padding: 0;
+
+        .learnMore__textContainer {
+            height: 100vh;
+            gap: 3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width: 800px) {
+    .learnMore__container {
+        flex-direction: column;
+        gap: 5vh;
+
+        .learnMore__textContainer {
+            height: 50vh;
+            margin-top: 10vh;
+            gap: 2rem;
+            padding: 0;
+        }
+
+        .learnMore__appImgContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
     }
 }
 

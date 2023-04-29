@@ -34,9 +34,16 @@
             height: 100%;
         }
 
+        .hero__learnMoreBtnContainer {
+            height: 100%;
+            width: 45%;
+        }
+
         .hero__learnMoreBtn {
             border: solid;
             border-color: var(--cta-highlight-color);
+            width: 100%;
+            height: 100%;
         }
 
         .hero__tryForFreeBtn {
