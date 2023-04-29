@@ -1,0 +1,13 @@
+"filename", "language", "JSON with Comments", "JSON", "JavaScript", "Markdown", "XML", "TypeScript", "comment", "blank", "total"
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\README.md", "Markdown", 0, 0, 0, -23, 0, 0, 0, -16, -39
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\additional.d.ts", "TypeScript", 0, 0, 0, 0, 0, -3, 0, 0, -3
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\next.config.js", "JavaScript", 0, 0, -21, 0, 0, 0, -1, -2, -24
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\package-lock.json", "JSON", 0, -4222, 0, 0, 0, 0, 0, -1, -4223
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\package.json", "JSON", 0, -33, 0, 0, 0, 0, 0, -1, -34
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\postcss.config.js", "JavaScript", 0, 0, -6, 0, 0, 0, 0, -1, -7
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\public\assets\img\mobile phone preview.svg", "XML", 0, 0, 0, 0, -14, 0, 0, -1, -15
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\public\next.svg", "XML", 0, 0, 0, 0, -1, 0, 0, 0, -1
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\public\vercel.svg", "XML", 0, 0, 0, 0, -1, 0, 0, 0, -1
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\tailwind.config.js", "JavaScript", 0, 0, -17, 0, 0, 0, -1, -1, -19
+"c:\Users\Marshal\Desktop\js\Ambient-Focus\tsconfig.json", "JSON with Comments", -19, 0, 0, 0, 0, 0, -5, 0, -24
+"Total", "-", -19, -4255, -44, -23, -16, -3, -7, -23, -4390

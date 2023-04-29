@@ -1,0 +1,78 @@
+Date : 2023-04-26 20:51:08
+Directory : c:\Users\Marshal\Desktop\js\Ambient-Focus
+Total : 32 files,  5123 codes, 12 comments, 144 blanks, all 5279 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |      4,255 |          0 |          2 |      4,257 |
+| SCSS               |          8 |        357 |          0 |         57 |        414 |
+| TypeScript JSX     |         10 |        277 |          0 |         50 |        327 |
+| TypeScript         |          3 |        111 |          1 |          7 |        119 |
+| JavaScript         |          3 |         44 |          2 |          4 |         50 |
+| Markdown           |          1 |         23 |          0 |         16 |         39 |
+| CSS                |          1 |         21 |          4 |          7 |         32 |
+| JSON with Comments |          1 |         19 |          5 |          0 |         24 |
+| XML                |          3 |         16 |          0 |          1 |         17 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                 | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                    |         32 |      5,123 |         12 |        144 |      5,279 |
+| . (Files)                                                                            |          8 |      4,344 |          7 |         22 |      4,373 |
+| public                                                                               |          3 |         16 |          0 |          1 |         17 |
+| public (Files)                                                                       |          2 |          2 |          0 |          0 |          2 |
+| public\assets                                                                        |          1 |         14 |          0 |          1 |         15 |
+| public\assets\img                                                                    |          1 |         14 |          0 |          1 |         15 |
+| src                                                                                  |         21 |        763 |          5 |        121 |        889 |
+| src\components                                                                       |          2 |         32 |          0 |          9 |         41 |
+| src\data                                                                             |          1 |         98 |          0 |          4 |        102 |
+| src\pages                                                                            |          9 |        255 |          1 |         44 |        300 |
+| src\pages (Files)                                                                    |          3 |         38 |          0 |          8 |         46 |
+| src\pages\api                                                                        |          1 |         10 |          1 |          3 |         14 |
+| src\pages\landing                                                                    |          2 |         75 |          0 |         11 |         86 |
+| src\pages\player                                                                     |          3 |        132 |          0 |         22 |        154 |
+| src\styles                                                                           |          9 |        378 |          4 |         64 |        446 |
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                             | language           | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\README.md                                  | Markdown           |         23 |          0 |         16 |         39 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\additional.d.ts                            | TypeScript         |          3 |          0 |          0 |          3 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\next.config.js                             | JavaScript         |         21 |          1 |          2 |         24 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\package-lock.json                          | JSON               |      4,222 |          0 |          1 |      4,223 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\package.json                               | JSON               |         33 |          0 |          1 |         34 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\postcss.config.js                          | JavaScript         |          6 |          0 |          1 |          7 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\public\assets\img\mobile phone preview.svg | XML                |         14 |          0 |          1 |         15 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\public\next.svg                            | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\public\vercel.svg                          | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\components\footer.tsx                  | TypeScript JSX     |         10 |          0 |          4 |         14 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\components\navbar.tsx                  | TypeScript JSX     |         22 |          0 |          5 |         27 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\data\soundsMeta.ts                     | TypeScript         |         98 |          0 |          4 |        102 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\_app.tsx                         | TypeScript JSX     |          5 |          0 |          2 |          7 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\_document.tsx                    | TypeScript JSX     |         12 |          0 |          2 |         14 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\api\hello.ts                     | TypeScript         |         10 |          1 |          3 |         14 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\index.tsx                        | TypeScript JSX     |         21 |          0 |          4 |         25 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\landing\hero.tsx                 | TypeScript JSX     |         36 |          0 |          7 |         43 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\landing\learn-more.tsx           | TypeScript JSX     |         39 |          0 |          4 |         43 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\player\player.tsx                | TypeScript JSX     |         24 |          0 |          4 |         28 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\player\soundcard.tsx             | TypeScript JSX     |         69 |          0 |         10 |         79 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\pages\player\sounds.tsx                | TypeScript JSX     |         39 |          0 |          8 |         47 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\Footer.module.scss              | SCSS               |         10 |          0 |          0 |         10 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\Hero.module.scss                | SCSS               |         64 |          0 |         15 |         79 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\Index.module.scss               | SCSS               |         60 |          0 |          9 |         69 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\LearnMore.module.scss           | SCSS               |         69 |          0 |         15 |         84 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\Navbar.module.scss              | SCSS               |         17 |          0 |          2 |         19 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\Player.module.scss              | SCSS               |         54 |          0 |          7 |         61 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\Soundcard.module.scss           | SCSS               |         48 |          0 |          6 |         54 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\Sounds.module.scss              | SCSS               |         35 |          0 |          3 |         38 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\src\styles\globals.css                     | CSS                |         21 |          4 |          7 |         32 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\tailwind.config.js                         | JavaScript         |         17 |          1 |          1 |         19 |
+| c:\Users\Marshal\Desktop\js\Ambient-Focus\tsconfig.json                              | JSON with Comments |         19 |          5 |          0 |         24 |
+| Total                                                                                |                    |      5,123 |         12 |        144 |      5,279 |
++--------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
