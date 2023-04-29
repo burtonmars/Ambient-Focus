@@ -22,4 +22,5 @@ Credit:
 - mobile png from https://pngtree.com/so/mobile
 - icons from https://icons8.com/icons
 - audio files from https://BigSoundBank.com
+- inspiration from https://calmwhisper.com/
 
