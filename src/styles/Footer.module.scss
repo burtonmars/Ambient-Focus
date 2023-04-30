@@ -5,6 +5,12 @@
     width: 100%;
     min-height: 10vh;
     background-color: var(--color-footer);
-    font-size: small;
+    font-size: 1rem;
     position: relative;
+}
+
+@media screen and (min-height: 1000px) {
+    .footer__container {
+       color: rgb(53, 53, 53);
+    }
 }

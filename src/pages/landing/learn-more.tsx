@@ -33,7 +33,7 @@ function LearnMore() {
               <Image 
                 src={mobilePreview} 
                 alt='mobile phone preview'
-                height={450}>
+                height={550}>
               </Image>
             </a>
           </div>

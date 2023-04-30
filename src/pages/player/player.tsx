@@ -32,17 +32,21 @@ function Player() {
 
   return (
     <div className={styles.player__background}>
-      <div className={styles.player__container}>
+      <div className={styles.player__main}>
         <div className={styles.player__navbar}>
           <Navbar />
         </div>
-        <div className={styles.player__titleContainer}>
-          <h1>Click any sound to add it to your ambience</h1>
+        <div className={styles.player__container}>
+          <div className={styles.player__titleContainer}>
+            <h1>Click any sound to add it to your ambience</h1>
+          </div>
+          <div className={styles.player__soundsContainer}>
+            <Sounds />
+          </div>
         </div>
-        <div className={styles.player__soundsContainer}>
-          <Sounds />
+        <div className={styles.player__footerContainer}>
+          <Footer />
         </div>
-        <Footer />
       </div>
     </div>
   )

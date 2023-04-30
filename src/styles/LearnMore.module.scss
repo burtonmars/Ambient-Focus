@@ -19,8 +19,9 @@
         width: 75%;
 
         h1 {
-            font-size: 1.8rem;
+            font-size: 2.2rem;
             margin-bottom: 1rem;
+            font-weight: bold;
         }
 
         p {
@@ -29,7 +30,6 @@
     }
 
     .learnMore__appImgContainer {
-        color: white;
         display: none;
     }
 }
@@ -111,6 +111,25 @@
                     
             .learnMore__section {
                 margin-bottom: 3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 2050px) {
+    .learnMore__container {
+        width: 1000px;
+
+        .learnMore__textContainer {
+            justify-content: center;
+            gap: 2rem;
+
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            p {
+                font-size: 1.5rem;
             }
         }
     }

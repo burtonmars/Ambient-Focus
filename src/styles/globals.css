@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@200&display=swap');
 
 :root {
-  --font-family: "Castoro", serif;
+  --font-family: 'Roboto', sans-serif;
+  /* --font-family: 'Ysabeau', sans-serif; */
 
   --cta-highlight-color: #00FFE0;
   --soundcard-color: #B7CAB0;

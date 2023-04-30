@@ -34,9 +34,9 @@ function Sounds() {
           ))}
         </div>
         <div className={style.sounds__controlButtons}>
-            <button onClick={handlePlay}><FaPlay /></button>
-            <button onClick={handlePause}><FaPause /></button>
-            <button onClick={handleStop}><FaStop /></button>
+            <button onClick={handlePlay}><FaPlay className={style.sounds__controlButton}/></button>
+            <button onClick={handlePause}><FaPause className={style.sounds__controlButton}/></button>
+            <button onClick={handleStop}><FaStop className={style.sounds__controlButton}/></button>
         </div>
       </div>
     </>
