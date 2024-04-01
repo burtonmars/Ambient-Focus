@@ -1,6 +1,6 @@
 ## Ambient Focus
 
-Ambient Focus is a NextJS web app that allows users to layer ambient sounds to create soundscapes that transform their atmosphere in a positive way. The app was inspired by a project I saw on another developer's [portfolio](https://lmssieh.com/). While the idea was borrowed, the design and code are 100% my own (not counting snippets from chatGPT and copilot ofcourse).
+Ambient Focus is a NextJS web app that allows users to layer ambient sounds to create soundscapes that transform their atmosphere in a positive way.
 
 There were many challenges in creating this app, as I had never incorporated audio into a web app before. I found the use-sound react hook was a relatively easy way to allow users to play, pause, stop, and adjust volume of the sounds on the app. Another major challenge is the long loading time and I am currently attempting to find ways to reduce the time it takes to load the sound player. 
 
